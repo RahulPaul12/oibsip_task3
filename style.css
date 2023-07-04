@@ -1,0 +1,100 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.converter{
+    width: 60%;
+    max-width: 500px;
+    margin: 10% auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.input,.label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:0 10px 10px 10px;
+    padding: 0 20px 20px 20px;
+    
+}
+.label{
+    justify-content: space-around;
+    color: #a5a6a7;
+}
+input{
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    border-bottom: 1px solid #ced4da;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.result-div label{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #a5a6a7;
+}
+.result-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 8%;
+    margin-top: 10px;
+}
+.result-div input{
+    width: -moz-available;
+
+}
+
+select{
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border: none;
+    margin-top: 4px;
+    border-bottom: 1px solid #ced4da;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.btn{
+    display: inline-block;
+    width: 90%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius:10px ;
+    outline: none;
+    margin: 10px;
+}
